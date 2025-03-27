@@ -1,0 +1,139 @@
+/* Slideshow Container - Full Screen */
+.slideshow {
+    position: relative;
+    width: 100vw;  /* Full width of the screen */
+    height: 100vh; /* Full height of the screen */
+    overflow: hidden;
+    background-color: white;
+}
+
+/* Make images fill the full screen */
+.slideshow img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+    opacity: 0; /* Initially hidden */
+}
+
+/* Show active image */
+.slideshow img.active {
+    opacity: 1; /* Fully visible */
+}
+
+/* Contact Us Button on Image */
+.contact-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.retail {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    margin: 10%;
+  }
+  
+  .retail-item {
+    position: relative;
+    width: 250px; /* Adjust as needed */
+  }
+  
+  .retail-item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;/* Optional for rounded corners */
+    
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: max-content;
+  }
+  
+  .know-more {
+    display: block;
+    
+    margin-top: 10px;
+   border-radius: 50%;
+   padding: 5px;
+    background-color:rgb(15, 123, 231);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .know-more:hover {
+    background-color: black;
+    padding: 10px;
+  }
+
+ 
+  .images
+  {
+    display: grid;
+    gap: 15px;
+    margin-top: 2%;
+    grid-template-columns: repeat(3, 1fr);
+   
+    
+  }
+
+  .images img{
+
+    width: 550px;
+    height:600px;
+   margin: 4%;
+    padding: 10px;
+
+    
+  }
+  .header img
+  {
+    width: 100%;
+    height: 300px;
+  }
+
+  .text {
+    position: absolute;
+    margin-left: 50%;
+    margin-top:5%;
+    font-size: 50px;
+    transform: translateX(-50%);
+    color:white;
+    text-align: center;
+    width: max-content;
+  }
+
+  .slide
+  {
+    width: "500px";
+     height: "300px";
+     position: "relative" ;
+  }

@@ -1,0 +1,52 @@
+
+.tool
+{
+    width: 100%;
+    height: 450px;
+}
+
+.section
+{
+    display: flex;
+    gap:20px;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+.products ul {
+    color: darkblue;
+   
+    border-width: 10px;
+   height: 50vh;
+   box-sizing: border-box;
+    border-left-color: black;
+    background-color: antiquewhite;
+    padding-top: 10px;
+   border-radius: 5%;
+       border-left-style: solid;
+}
+
+.products ul li {
+     padding-left: 0px;
+     padding-bottom: 12px;
+     
+}
+
+.products ul li a{
+    color: blue;
+}
+
+.section img
+{
+    height: 500px;
+    width: 550px;
+}
+
+.sheet
+{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
